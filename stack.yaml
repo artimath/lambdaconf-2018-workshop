@@ -1,6 +1,8 @@
-resolver: nightly-2018-06-01
+resolver: nightly-2024-08-25
 packages:
   - '.'
 extra-deps:
   - git: https://github.com/fizruk/telegram-bot-simple.git
-    commit: v0.2
+    commit: 'f7acd0a9feb7fd9beb0ec621a2fe271f6721d51c'
+    subdirs:
+      - telegram-bot-simple

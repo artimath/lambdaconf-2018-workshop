@@ -1,8 +1,10 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.37.0.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 9c46390282370b2b9642ae5ecba297c140af926abdea4f2ca68059f45806eaeb
+-- hash: 1b17b0b06a1fffa8ed7ae7cc915aa9b6435fd638cd36c6e05dd7fc7d3edc5806
 
 name:           demo-bot
 version:        0.1.0
@@ -16,10 +18,9 @@ maintainer:     nickolay.kudasov@gmail.com
 copyright:      Nickolay Kudasov
 license:        BSD3
 build-type:     Simple
-cabal-version:  >= 1.10
 extra-source-files:
-    PREPARE.md
     README.md
+    PREPARE.md
 
 source-repository head
   type: git
@@ -41,6 +42,7 @@ executable demo-bot
     , mtl
     , servant-client
     , telegram-bot-simple
+    , telegram-bot-api
     , text
     , time
   default-language: Haskell2010
